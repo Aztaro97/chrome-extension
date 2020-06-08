@@ -4,7 +4,7 @@ body {
     min-height: 100px;
 }
 
-img {
+.card img {
     width: auto;
     height: 50px;
     text-align: center;
@@ -13,8 +13,13 @@ img {
     margin: 10px 0;
 }
 .row a {
-   margin: 25px; 
+   margin: 30px; 
    color: inherit;
+}
+.col-3 img {
+    width: 40px;
+    height: 40px;
+    transition: .3s ease-in-out;
 }
 
 .fab {
@@ -22,6 +27,6 @@ img {
     transition: .3s ease-in-out;
 }
 
-.fab:hover {
+.fab:hover , .col-3 img:hover{
     transform: scale(1.4);
 }

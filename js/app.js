@@ -47,3 +47,6 @@ document.querySelector('#tw').addEventListener("click", ()=> {
 document.querySelector('#fb').addEventListener("click", ()=> {
     chrome.tabs.create({url:'https://facebook.com'})
 })
+document.querySelector('#cs').addEventListener("click", ()=> {
+    chrome.tabs.create({url:'https://intra.codeloccol.org'})
+})
