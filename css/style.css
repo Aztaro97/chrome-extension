@@ -1,0 +1,27 @@
+body {
+    min-width: 450px;
+    padding: 20px;
+    min-height: 100px;
+}
+
+img {
+    width: auto;
+    height: 50px;
+    text-align: center;
+}
+.row {
+    margin: 10px 0;
+}
+.row a {
+   margin: 25px; 
+   color: inherit;
+}
+
+.fab {
+    font-size: 30px;
+    transition: .3s ease-in-out;
+}
+
+.fab:hover {
+    transform: scale(1.4);
+}
